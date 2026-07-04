@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy – Shadeloom</title>
+    <style>
+        :root {
+            --primary: #7c3aed;
+            --primary-light: #a78bfa;
+            --bg: #faf5ff;
+            --card: #ffffff;
+            --text: #1e1b4b;
+            --text-secondary: #6b7280;
+            --border: #e5e7eb;
+            --radius: 14px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: white;
+            padding: 64px 24px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        header p {
+            opacity: 0.9;
+            font-size: 1rem;
+        }
+
+        .container {
+            max-width: 880px;
+            margin: -40px auto 60px;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            color: var(--primary);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2::before {
+            content: "";
+            width: 4px;
+            height: 22px;
+            background: var(--primary);
+            border-radius: 2px;
+        }
+
+        p, li {
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li::marker {
+            color: var(--primary-light);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 12px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 14px 12px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            background: #f5f3ff;
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        td {
+            color: var(--text-secondary);
+        }
+
+        .highlight {
+            background: #f5f3ff;
+            border-left: 4px solid var(--primary);
+            padding: 16px 20px;
+            border-radius: 0 var(--radius) var(--radius) 0;
+            margin: 20px 0;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #f5f3ff, #ede9fe);
+            border-radius: var(--radius);
+            padding: 28px;
+            text-align: center;
+        }
+
+        .contact-box a {
+            color: var(--primary);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 32px 20px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            .card {
+                padding: 24px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Privacy Policy</h1>
+    <p>Shadeloom<br>Effective Date: July 4, 2026</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>1. Introduction</h2>
+        <p>
+            Welcome to <strong>Shadeloom</strong>. Your privacy is fundamental to everything we build. This Privacy Policy explains how we handle your information when you use our application. By using Shadeloom, you agree to the practices described in this policy.
+        </p>
+        <div class="highlight">
+            <strong>Our Philosophy:</strong> Shadeloom is built to be a private creative space. We do not require accounts, and we do not upload your palettes or images to any server.
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>2. Information We Collect</h2>
+        <p>We design Shadeloom to minimize data collection:</p>
+        <ul>
+            <li><strong>User-Generated Content:</strong> Color palettes, gradients, project names, and exported images you create within the app.</li>
+            <li><strong>Device Permissions:</strong> Access to your Photo Library (only when you explicitly choose to import or export images).</li>
+            <li><strong>Usage Data:</strong> None. We do not use third-party analytics, advertising SDKs, or crash reporters.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>3. How We Use Your Information</h2>
+        <p>Your data is used exclusively to power Shadeloom’s features on your device:</p>
+        <table>
+            <tr>
+                <th>Purpose</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Local Storage</td>
+                <td>To save your color palettes and project history on your device.</td>
+            </tr>
+            <tr>
+                <td>Core Functionality</td>
+                <td>To generate harmonious colors, gradients, and export assets.</td>
+            </tr>
+            <tr>
+                <td>Media Access</td>
+                <td>To allow you to extract colors from photos you select.</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>4. Local-First Storage & Security</h2>
+        <p>
+            All your creative work in Shadeloom remains on your device. We utilize your device’s secure local storage (such as Core Data or SQLite) to ensure your data is protected. Because your data is never transmitted to our servers, you retain complete ownership and control.
+        </p>
+        <ul>
+            <li>No cloud synchronization by default.</li>
+            <li>No remote databases operated by Shadeloom.</li>
+            <li>No tracking pixels or hidden data collection.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>5. Data Sharing and Disclosure</h2>
+        <p>
+            We do not sell, rent, or trade your personal information or creative works. We will never access or share your palettes unless required by law or to protect our legal rights.
+        </p>
+        <p>
+            The only time your data leaves your device is when you manually use the export or share functionality within the app.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>6. Your Rights and Choices</h2>
+        <p>You have full control over your data:</p>
+        <ul>
+            <li><strong>Access & Export:</strong> Export your palettes as images, PDFs, or code snippets at any time.</li>
+            <li><strong>Deletion:</strong> Deleting the app will permanently remove all associated local data.</li>
+            <li><strong>Permissions:</strong> You can revoke Photo Library access at any time via your device Settings.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>7. Children’s Privacy</h2>
+        <p>
+            Shadeloom is not directed to children under the age of 13. We do not knowingly collect personal information from children. If we become aware that a child has provided us with personal data, we will take immediate steps to delete it.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>8. Changes to This Policy</h2>
+        <p>
+            We may update this Privacy Policy occasionally. When we do, we will revise the “Effective Date” at the top of this page. We encourage you to review this policy periodically to stay informed about how we protect your information.
+        </p>
+    </div>
+
+    <div class="card contact-box">
+        <h2>9. Contact Us</h2>
+        <p>If you have any questions, suggestions, or concerns about this Privacy Policy or Shadeloom, please reach out to us:</p>
+        <p style="margin-top: 12px;">
+            <a href="mailto:altinolukadem92@gmail.com">altinolukadem92@gmail.com</a>
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Shadeloom. All rights reserved.
+</footer>
+
+</body>
+</html>
